@@ -1,0 +1,116 @@
+/* Reset */
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+/* Body */
+body{
+    font-family: 'Segoe UI', Arial, sans-serif;
+    background:#0b0b0b;
+    color:white;
+}
+
+/* Navbar */
+header{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:20px 50px;
+    background:#000;
+    position:sticky;
+    top:0;
+}
+
+.logo{
+    color:gold;
+    letter-spacing:4px;
+    font-weight:bold;
+    font-size:24px;
+}
+
+/* Navigation */
+nav a{
+    margin-left:25px;
+    text-decoration:none;
+    color:white;
+    font-size:16px;
+    transition:0.3s;
+}
+
+nav a:hover{
+    color:gold;
+}
+
+/* Hero Section */
+.hero{
+    height:90vh;
+    background:url('images/watch1.jpg') center/cover no-repeat;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    text-align:center;
+    padding:20px;
+}
+
+.hero-text{
+    background:rgba(0,0,0,0.5);
+    padding:40px;
+    border-radius:12px;
+}
+
+.hero-text h2{
+    font-size:48px;
+    margin-bottom:15px;
+}
+
+.hero-text p{
+    font-size:18px;
+    margin-bottom:25px;
+}
+
+/* Button */
+.btn{
+    background:gold;
+    color:black;
+    padding:14px 28px;
+    text-decoration:none;
+    font-weight:bold;
+    border-radius:8px;
+    transition:0.3s;
+}
+
+.btn:hover{
+    background:#e6c200;
+}
+
+/* About Section */
+.about{
+    padding:70px 20px;
+    text-align:center;
+    max-width:900px;
+    margin:auto;
+}
+
+.about h2{
+    margin-bottom:20px;
+    font-size:32px;
+    color:gold;
+}
+
+.about p{
+    font-size:18px;
+    line-height:1.6;
+    color:#ddd;
+}
+
+/* Footer */
+footer{
+    background:#000;
+    text-align:center;
+    padding:20px;
+    margin-top:40px;
+    color:#aaa;
+    font-size:14px;
+}
